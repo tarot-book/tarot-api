@@ -1,162 +1,48 @@
 # Tarot API
 
-- [Tarot API](#tarot-api)
-  - [Overview](#overview)
-  - [Features](#features)
-  - [Tech Stack](#tech-stack)
-  - [Installation](#installation)
-    - [Clone the Repository](#clone-the-repository)
-    - [Environment Variables](#environment-variables)
-  - [Database Setup](#database-setup)
-    - [Using Docker (recommended)](#using-docker-recommended)
-    - [Manual Setup (if PostgreSQL is installed locally)](#manual-setup-if-postgresql-is-installed-locally)
-  - [Usage](#usage)
-    - [Build the project](#build-the-project)
-    - [Start the server](#start-the-server)
-  - [Swagger API Documentation](#swagger-api-documentation)
-    - [Generate docs:](#generate-docs)
-    - [View in browser:](#view-in-browser)
-  - [Testing](#testing)
-    - [Run unit tests:](#run-unit-tests)
-    - [Run integration tests with Docker:](#run-integration-tests-with-docker)
-  - [License](#license)
+Backend for Tarot Book / Tarot Mini App.
 
+Django-based REST API providing access to Tarot data: decks, cards, spreads, sources and meanings.
 
-## Overview
-Tarot API is a RESTful service that provides access to a structured database of classical Tarot data, including decks, spreads, interpretations (meanings), and card metadata.
+## Stack
 
-This project is suitable for building Tarot bots, educational tools, divination assistants, and web/mobile Tarot clients.
+* **Python** 3.14 (latest stable) ([python.org](https://www.python.org/downloads/?utm_source=chatgpt.com))
+* **Django** 5.2 LTS ([djangoproject.com](https://www.djangoproject.com/download/?utm_source=chatgpt.com))
+* **Django REST Framework**
+* **PostgreSQL**
+* **Docker Compose** (local dev)
 
-## Features
+## Quick start (local)
 
-- Full CRUD for:
-  - Decks
-  - Cards (Major & Minor Arcana)
-  - Sources
-  - Spreads
-  - Suits & Ranks
-  - Meanings (Major & Minor Arcana)
-- Meaning filters (e.g. by `source`, `position`, `number`, `suit`)
-- Swagger UI documentation
-- JSON API responses
-- Integration test suite using isolated PostgreSQL
-- Modular, idiomatic Go codebase
-
-## Tech Stack
-
-- **Go** 1.21+
-- **PostgreSQL**
-- **Echo** web framework
-- **Swagger / Swaggo** for API docs
-- **Docker Compose** for local dev/test DB
-- **Testify** for testing
-
----
-
-## Installation
-
-### Clone the Repository
-
-```sh
-git clone https://github.com/ilbagatto/tarot-api.git
-cd tarot-api
+```bash
+docker compose up -d
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
 ```
 
-### Environment Variables
+Default address:
 
-Create a `.env` file:
+* [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+## Environment variables
 
 ```env
-SERVER_PORT=8080
-DB_HOST=localhost
-DB_PORT=5442
-DB_USER=tarot
-DB_PASSWORD=yourpassword
-DB_NAME=tarot
-POSTGRES_DSN=postgresql://tarot:yourpassword@localhost:5442/tarot?sslmode=disable
-
-# Logging format: use "color", "development", or "json"
-LOG_FORMAT=development
-
-# Public URL where card images are served from
-BASE_URL=https://yourdomain.com/static
+DATABASE_URL=postgres://tarot:tarot@127.0.0.1:5432/tarot
+DJANGO_SECRET_KEY=change-me
+DJANGO_DEBUG=1
+ALLOWED_HOSTS=127.0.0.1,localhost
 ```
 
----
+## Versioning
 
-## Database Setup
+We use **Semantic Versioning** for releases.
 
-### Using Docker (recommended)
-
-```sh
-docker-compose up -d
-```
-
-For testing environment:
-```sh
-docker-compose -f docker-compose.test.yml up -d
-```
-
-### Manual Setup (if PostgreSQL is installed locally)
-
-```sh
-createdb tarot
-psql -U tarot -d tarot -f setup-db/init.sql
-```
-
----
-
-## Usage
-
-### Build the project
-
-```sh
-make build
-```
-
-### Start the server
-
-```sh
-make run
-```
-
-API will be available at: [http://localhost:8080](http://localhost:8080)
-
----
-
-## Swagger API Documentation
-
-### Generate docs:
-
-```sh
-make docs
-```
-
-### View in browser:
-
-[http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
-
-
----
-
-## Testing
-
-### Run unit tests:
-
-```sh
-make test-unit
-```
-
-### Run integration tests with Docker:
-
-```sh
-make test-integration
-```
-
----
+* Start with `0.x` while the API contract is still moving.
+* When endpoints/response formats are considered stable, bump to `1.0.0`.
+* Tag releases in Git (`v0.1.0`, `v0.1.1`, ...).
 
 ## License
 
-This project is licensed under the MIT License.
-
-⚠️ Interpretations are demo-only. Real data is omitted for licensing purposes.
+MIT

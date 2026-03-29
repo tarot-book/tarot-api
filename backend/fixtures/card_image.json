@@ -1,0 +1,1801 @@
+[
+{
+  "model": "api.cardimage",
+  "pk": 1,
+  "fields": {
+    "path": "rider/minor/wands/ace.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 2,
+  "fields": {
+    "path": "rider/minor/wands/2.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 3,
+  "fields": {
+    "path": "rider/minor/wands/3.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 4,
+  "fields": {
+    "path": "rider/minor/wands/4.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 5,
+  "fields": {
+    "path": "rider/minor/wands/5.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 6,
+  "fields": {
+    "path": "rider/minor/wands/6.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 7,
+  "fields": {
+    "path": "rider/minor/wands/7.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 8,
+  "fields": {
+    "path": "rider/minor/wands/8.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 9,
+  "fields": {
+    "path": "rider/minor/wands/9.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 10,
+  "fields": {
+    "path": "rider/minor/wands/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 11,
+  "fields": {
+    "path": "rider/minor/wands/page.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 12,
+  "fields": {
+    "path": "rider/minor/wands/knight.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 13,
+  "fields": {
+    "path": "rider/minor/wands/queen.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 14,
+  "fields": {
+    "path": "rider/minor/wands/king.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 15,
+  "fields": {
+    "path": "rider/minor/swords/ace.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 16,
+  "fields": {
+    "path": "rider/minor/swords/2.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 17,
+  "fields": {
+    "path": "rider/minor/swords/3.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 18,
+  "fields": {
+    "path": "rider/minor/swords/4.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 19,
+  "fields": {
+    "path": "rider/minor/swords/5.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 20,
+  "fields": {
+    "path": "rider/minor/swords/6.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 21,
+  "fields": {
+    "path": "rider/minor/swords/7.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 22,
+  "fields": {
+    "path": "rider/minor/swords/8.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 23,
+  "fields": {
+    "path": "rider/minor/swords/9.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 24,
+  "fields": {
+    "path": "rider/minor/swords/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 25,
+  "fields": {
+    "path": "rider/minor/swords/page.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 26,
+  "fields": {
+    "path": "rider/minor/swords/knight.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 27,
+  "fields": {
+    "path": "rider/minor/swords/queen.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 28,
+  "fields": {
+    "path": "rider/minor/swords/king.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 29,
+  "fields": {
+    "path": "rider/minor/cups/ace.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 30,
+  "fields": {
+    "path": "rider/minor/cups/2.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 31,
+  "fields": {
+    "path": "rider/minor/cups/3.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 32,
+  "fields": {
+    "path": "rider/minor/cups/4.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 33,
+  "fields": {
+    "path": "rider/minor/cups/5.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 34,
+  "fields": {
+    "path": "rider/minor/cups/6.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 35,
+  "fields": {
+    "path": "rider/minor/cups/7.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 36,
+  "fields": {
+    "path": "rider/minor/cups/8.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 37,
+  "fields": {
+    "path": "rider/minor/cups/9.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 38,
+  "fields": {
+    "path": "rider/minor/cups/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 39,
+  "fields": {
+    "path": "rider/minor/cups/page.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 40,
+  "fields": {
+    "path": "rider/minor/cups/knight.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 41,
+  "fields": {
+    "path": "rider/minor/cups/queen.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 42,
+  "fields": {
+    "path": "rider/minor/cups/king.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 43,
+  "fields": {
+    "path": "rider/minor/pentacles/ace.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 44,
+  "fields": {
+    "path": "rider/minor/pentacles/2.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 45,
+  "fields": {
+    "path": "rider/minor/pentacles/3.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 46,
+  "fields": {
+    "path": "rider/minor/pentacles/4.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 47,
+  "fields": {
+    "path": "rider/minor/pentacles/5.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 48,
+  "fields": {
+    "path": "rider/minor/pentacles/6.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 49,
+  "fields": {
+    "path": "rider/minor/pentacles/7.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 50,
+  "fields": {
+    "path": "rider/minor/pentacles/8.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 51,
+  "fields": {
+    "path": "rider/minor/pentacles/9.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 52,
+  "fields": {
+    "path": "rider/minor/pentacles/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 53,
+  "fields": {
+    "path": "rider/minor/pentacles/page.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 54,
+  "fields": {
+    "path": "rider/minor/pentacles/knight.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 55,
+  "fields": {
+    "path": "rider/minor/pentacles/queen.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 56,
+  "fields": {
+    "path": "rider/minor/pentacles/king.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 57,
+  "fields": {
+    "path": "rider/major/fool.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 58,
+  "fields": {
+    "path": "rider/major/magician.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 59,
+  "fields": {
+    "path": "rider/major/priestess.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 60,
+  "fields": {
+    "path": "rider/major/empress.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 61,
+  "fields": {
+    "path": "rider/major/emperor.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 62,
+  "fields": {
+    "path": "rider/major/hierophant.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 63,
+  "fields": {
+    "path": "rider/major/lovers.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 64,
+  "fields": {
+    "path": "rider/major/chariot.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 65,
+  "fields": {
+    "path": "rider/major/strength.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 66,
+  "fields": {
+    "path": "rider/major/hermit.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 67,
+  "fields": {
+    "path": "rider/major/fortune.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 68,
+  "fields": {
+    "path": "rider/major/justice.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 69,
+  "fields": {
+    "path": "rider/major/hanged.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 70,
+  "fields": {
+    "path": "rider/major/death.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 71,
+  "fields": {
+    "path": "rider/major/temperance.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 72,
+  "fields": {
+    "path": "rider/major/devil.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 73,
+  "fields": {
+    "path": "rider/major/tower.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 74,
+  "fields": {
+    "path": "rider/major/star.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 75,
+  "fields": {
+    "path": "rider/major/moon.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 76,
+  "fields": {
+    "path": "rider/major/sun.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 77,
+  "fields": {
+    "path": "rider/major/judgement.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 78,
+  "fields": {
+    "path": "rider/major/world.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 79,
+  "fields": {
+    "path": "rider/major/blank.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 80,
+  "fields": {
+    "path": "marseille/minor/wands/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 81,
+  "fields": {
+    "path": "marseille/minor/wands/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 82,
+  "fields": {
+    "path": "marseille/minor/wands/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 83,
+  "fields": {
+    "path": "marseille/minor/wands/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 84,
+  "fields": {
+    "path": "marseille/minor/wands/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 85,
+  "fields": {
+    "path": "marseille/minor/wands/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 86,
+  "fields": {
+    "path": "marseille/minor/wands/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 87,
+  "fields": {
+    "path": "marseille/minor/wands/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 88,
+  "fields": {
+    "path": "marseille/minor/wands/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 89,
+  "fields": {
+    "path": "marseille/minor/wands/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 90,
+  "fields": {
+    "path": "marseille/minor/wands/valet de baton.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 91,
+  "fields": {
+    "path": "marseille/minor/wands/cavalier de baton.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 92,
+  "fields": {
+    "path": "marseille/minor/wands/reyne de baton.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 93,
+  "fields": {
+    "path": "marseille/minor/wands/roy de baton.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 94,
+  "fields": {
+    "path": "marseille/minor/swords/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 95,
+  "fields": {
+    "path": "marseille/minor/swords/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 96,
+  "fields": {
+    "path": "marseille/minor/swords/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 97,
+  "fields": {
+    "path": "marseille/minor/swords/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 98,
+  "fields": {
+    "path": "marseille/minor/swords/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 99,
+  "fields": {
+    "path": "marseille/minor/swords/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 100,
+  "fields": {
+    "path": "marseille/minor/swords/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 101,
+  "fields": {
+    "path": "marseille/minor/swords/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 102,
+  "fields": {
+    "path": "marseille/minor/swords/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 103,
+  "fields": {
+    "path": "marseille/minor/swords/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 104,
+  "fields": {
+    "path": "marseille/minor/swords/valet d'epee.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 105,
+  "fields": {
+    "path": "marseille/minor/swords/cavalier d'epee.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 106,
+  "fields": {
+    "path": "marseille/minor/swords/reyne d'epee.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 107,
+  "fields": {
+    "path": "marseille/minor/swords/roy d'epee.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 108,
+  "fields": {
+    "path": "marseille/minor/chalices/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 109,
+  "fields": {
+    "path": "marseille/minor/chalices/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 110,
+  "fields": {
+    "path": "marseille/minor/chalices/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 111,
+  "fields": {
+    "path": "marseille/minor/chalices/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 112,
+  "fields": {
+    "path": "marseille/minor/chalices/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 113,
+  "fields": {
+    "path": "marseille/minor/chalices/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 114,
+  "fields": {
+    "path": "marseille/minor/chalices/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 115,
+  "fields": {
+    "path": "marseille/minor/chalices/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 116,
+  "fields": {
+    "path": "marseille/minor/chalices/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 117,
+  "fields": {
+    "path": "marseille/minor/chalices/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 118,
+  "fields": {
+    "path": "marseille/minor/chalices/valet de coupe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 119,
+  "fields": {
+    "path": "marseille/minor/chalices/cavalier de coupe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 120,
+  "fields": {
+    "path": "marseille/minor/chalices/reyne de coupe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 121,
+  "fields": {
+    "path": "marseille/minor/chalices/roy de coupe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 122,
+  "fields": {
+    "path": "marseille/minor/chalices/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 123,
+  "fields": {
+    "path": "marseille/minor/chalices/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 124,
+  "fields": {
+    "path": "marseille/minor/pentacles/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 125,
+  "fields": {
+    "path": "marseille/minor/pentacles/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 126,
+  "fields": {
+    "path": "marseille/minor/pentacles/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 127,
+  "fields": {
+    "path": "marseille/minor/pentacles/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 128,
+  "fields": {
+    "path": "marseille/minor/pentacles/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 129,
+  "fields": {
+    "path": "marseille/minor/pentacles/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 130,
+  "fields": {
+    "path": "marseille/minor/pentacles/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 131,
+  "fields": {
+    "path": "marseille/minor/pentacles/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 132,
+  "fields": {
+    "path": "marseille/minor/pentacles/valet de deniers.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 133,
+  "fields": {
+    "path": "marseille/minor/pentacles/cavalier de deniers.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 134,
+  "fields": {
+    "path": "marseille/minor/pentacles/reyne de deniers.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 135,
+  "fields": {
+    "path": "marseille/minor/pentacles/roy de deniers.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 136,
+  "fields": {
+    "path": "marseille/major/Le Mat.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 137,
+  "fields": {
+    "path": "marseille/major/Le Bateleur.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 138,
+  "fields": {
+    "path": "marseille/major/Le Papesse.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 139,
+  "fields": {
+    "path": "marseille/major/L'Imperatrice.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 140,
+  "fields": {
+    "path": "marseille/major/Le Empereur.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 141,
+  "fields": {
+    "path": "marseille/major/Le Pape.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 142,
+  "fields": {
+    "path": "marseille/major/L'Amoureux.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 143,
+  "fields": {
+    "path": "marseille/major/Le Chariot.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 144,
+  "fields": {
+    "path": "marseille/major/La Justice.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 145,
+  "fields": {
+    "path": "marseille/major/L'Hermite.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 146,
+  "fields": {
+    "path": "marseille/major/La Rue De Fortune.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 147,
+  "fields": {
+    "path": "marseille/major/La Force.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 148,
+  "fields": {
+    "path": "marseille/major/Le Pendu.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 149,
+  "fields": {
+    "path": "marseille/major/La Mort.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 150,
+  "fields": {
+    "path": "marseille/major/Temperance.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 151,
+  "fields": {
+    "path": "marseille/major/Le Diable.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 152,
+  "fields": {
+    "path": "marseille/major/La Maison Dieu.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 153,
+  "fields": {
+    "path": "marseille/major/L'Etoile.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 154,
+  "fields": {
+    "path": "marseille/major/La Lune.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 155,
+  "fields": {
+    "path": "marseille/major/Le Soleil.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 156,
+  "fields": {
+    "path": "marseille/major/Le Jugement.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 157,
+  "fields": {
+    "path": "marseille/major/Le Monde.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 158,
+  "fields": {
+    "path": "italian/minor/wands/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 159,
+  "fields": {
+    "path": "italian/minor/wands/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 160,
+  "fields": {
+    "path": "italian/minor/wands/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 161,
+  "fields": {
+    "path": "italian/minor/wands/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 162,
+  "fields": {
+    "path": "italian/minor/wands/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 163,
+  "fields": {
+    "path": "italian/minor/wands/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 164,
+  "fields": {
+    "path": "italian/minor/wands/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 165,
+  "fields": {
+    "path": "italian/minor/wands/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 166,
+  "fields": {
+    "path": "italian/minor/wands/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 167,
+  "fields": {
+    "path": "italian/minor/wands/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 168,
+  "fields": {
+    "path": "italian/minor/wands/fante di bastoni.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 169,
+  "fields": {
+    "path": "italian/minor/wands/cavaliere di bastoni.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 170,
+  "fields": {
+    "path": "italian/minor/wands/regina di bastoni.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 171,
+  "fields": {
+    "path": "italian/minor/wands/re di bastoni.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 172,
+  "fields": {
+    "path": "italian/minor/swords/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 173,
+  "fields": {
+    "path": "italian/minor/swords/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 174,
+  "fields": {
+    "path": "italian/minor/swords/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 175,
+  "fields": {
+    "path": "italian/minor/swords/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 176,
+  "fields": {
+    "path": "italian/minor/swords/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 177,
+  "fields": {
+    "path": "italian/minor/swords/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 178,
+  "fields": {
+    "path": "italian/minor/swords/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 179,
+  "fields": {
+    "path": "italian/minor/swords/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 180,
+  "fields": {
+    "path": "italian/minor/swords/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 181,
+  "fields": {
+    "path": "italian/minor/swords/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 182,
+  "fields": {
+    "path": "italian/minor/swords/fante di spade.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 183,
+  "fields": {
+    "path": "italian/minor/swords/cavaliere di spade.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 184,
+  "fields": {
+    "path": "italian/minor/swords/regina di spade.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 185,
+  "fields": {
+    "path": "italian/minor/swords/re di spade.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 186,
+  "fields": {
+    "path": "italian/minor/chalices/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 187,
+  "fields": {
+    "path": "italian/minor/chalices/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 188,
+  "fields": {
+    "path": "italian/minor/chalices/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 189,
+  "fields": {
+    "path": "italian/minor/chalices/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 190,
+  "fields": {
+    "path": "italian/minor/chalices/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 191,
+  "fields": {
+    "path": "italian/minor/chalices/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 192,
+  "fields": {
+    "path": "italian/minor/chalices/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 193,
+  "fields": {
+    "path": "italian/minor/chalices/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 194,
+  "fields": {
+    "path": "italian/minor/chalices/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 195,
+  "fields": {
+    "path": "italian/minor/chalices/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 196,
+  "fields": {
+    "path": "italian/minor/chalices/fante di coppe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 197,
+  "fields": {
+    "path": "italian/minor/chalices/cavaliere di coppe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 198,
+  "fields": {
+    "path": "italian/minor/chalices/regina di coppe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 199,
+  "fields": {
+    "path": "italian/minor/chalices/re di coppe.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 200,
+  "fields": {
+    "path": "italian/minor/pentacles/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 201,
+  "fields": {
+    "path": "italian/minor/pentacles/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 202,
+  "fields": {
+    "path": "italian/minor/pentacles/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 203,
+  "fields": {
+    "path": "italian/minor/pentacles/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 204,
+  "fields": {
+    "path": "italian/minor/pentacles/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 205,
+  "fields": {
+    "path": "italian/minor/pentacles/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 206,
+  "fields": {
+    "path": "italian/minor/pentacles/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 207,
+  "fields": {
+    "path": "italian/minor/pentacles/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 208,
+  "fields": {
+    "path": "italian/minor/pentacles/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 209,
+  "fields": {
+    "path": "italian/minor/pentacles/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 210,
+  "fields": {
+    "path": "italian/minor/pentacles/fante di danari.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 211,
+  "fields": {
+    "path": "italian/minor/pentacles/cavaliere di danari.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 212,
+  "fields": {
+    "path": "italian/minor/pentacles/regina di danari.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 213,
+  "fields": {
+    "path": "italian/minor/pentacles/re di danari.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 214,
+  "fields": {
+    "path": "italian/major/00-il matto.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 215,
+  "fields": {
+    "path": "italian/major/01-il bagatto.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 216,
+  "fields": {
+    "path": "italian/major/02-la papessa.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 217,
+  "fields": {
+    "path": "italian/major/03-l'imperatrice.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 218,
+  "fields": {
+    "path": "italian/major/04-l'imperatore.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 219,
+  "fields": {
+    "path": "italian/major/05-il papa.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 220,
+  "fields": {
+    "path": "italian/major/06-gli amanti.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 221,
+  "fields": {
+    "path": "italian/major/07-il carro.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 222,
+  "fields": {
+    "path": "italian/major/08-la giustizia.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 223,
+  "fields": {
+    "path": "italian/major/09-l'eremita.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 224,
+  "fields": {
+    "path": "italian/major/10-la ruota.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 225,
+  "fields": {
+    "path": "italian/major/11-la forza.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 226,
+  "fields": {
+    "path": "italian/major/12-l'appeso.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 227,
+  "fields": {
+    "path": "italian/major/13-il tredici.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 228,
+  "fields": {
+    "path": "italian/major/14-la temperanza.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 229,
+  "fields": {
+    "path": "italian/major/15-il diavolo.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 230,
+  "fields": {
+    "path": "italian/major/16-la torre.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 231,
+  "fields": {
+    "path": "italian/major/17-le stelle.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 232,
+  "fields": {
+    "path": "italian/major/18-la luna.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 233,
+  "fields": {
+    "path": "italian/major/19-il sole.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 234,
+  "fields": {
+    "path": "italian/major/20-il giudizio.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 235,
+  "fields": {
+    "path": "italian/major/21-il mondo.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 236,
+  "fields": {
+    "path": "visconti/major/00.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 237,
+  "fields": {
+    "path": "visconti/major/01.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 238,
+  "fields": {
+    "path": "visconti/major/02.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 239,
+  "fields": {
+    "path": "visconti/major/03.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 240,
+  "fields": {
+    "path": "visconti/major/04.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 241,
+  "fields": {
+    "path": "visconti/major/05.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 242,
+  "fields": {
+    "path": "visconti/major/06.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 243,
+  "fields": {
+    "path": "visconti/major/07.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 244,
+  "fields": {
+    "path": "visconti/major/08.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 245,
+  "fields": {
+    "path": "visconti/major/09.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 246,
+  "fields": {
+    "path": "visconti/major/10.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 247,
+  "fields": {
+    "path": "visconti/major/11.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 248,
+  "fields": {
+    "path": "visconti/major/12.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 249,
+  "fields": {
+    "path": "visconti/major/13.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 250,
+  "fields": {
+    "path": "visconti/major/14.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 251,
+  "fields": {
+    "path": "visconti/major/15.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 252,
+  "fields": {
+    "path": "visconti/major/16.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 253,
+  "fields": {
+    "path": "visconti/major/17.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 254,
+  "fields": {
+    "path": "visconti/major/18.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 255,
+  "fields": {
+    "path": "visconti/major/19.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 256,
+  "fields": {
+    "path": "visconti/major/20.png"
+  }
+},
+{
+  "model": "api.cardimage",
+  "pk": 257,
+  "fields": {
+    "path": "visconti/major/21.png"
+  }
+}
+]

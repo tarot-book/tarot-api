@@ -1,0 +1,23 @@
+[
+{
+  "model": "api.source",
+  "pk": 1,
+  "fields": {
+    "name": "Het Monster, \"Азбука Таро\""
+  }
+},
+{
+  "model": "api.source",
+  "pk": 2,
+  "fields": {
+    "name": "Мишель Моран, \"Марсельское Таро\""
+  }
+},
+{
+  "model": "api.source",
+  "pk": 3,
+  "fields": {
+    "name": "Хайо Банцхаф, \"Настольная книга Таро\""
+  }
+}
+]

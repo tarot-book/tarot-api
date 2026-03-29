@@ -1,0 +1,38 @@
+[
+{
+  "model": "api.suit",
+  "pk": 1,
+  "fields": {
+    "name": "Жезлы",
+    "genitive": "Жезлов",
+    "description": null
+  }
+},
+{
+  "model": "api.suit",
+  "pk": 2,
+  "fields": {
+    "name": "Мечи",
+    "genitive": "Мечей",
+    "description": null
+  }
+},
+{
+  "model": "api.suit",
+  "pk": 3,
+  "fields": {
+    "name": "Кубки",
+    "genitive": "Кубков",
+    "description": null
+  }
+},
+{
+  "model": "api.suit",
+  "pk": 4,
+  "fields": {
+    "name": "Денарии",
+    "genitive": "Денариев",
+    "description": null
+  }
+}
+]

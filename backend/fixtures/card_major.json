@@ -1,0 +1,803 @@
+[
+{
+  "model": "api.cardmajor",
+  "pk": 57,
+  "fields": {
+    "number": 0,
+    "name": "Шут",
+    "orgname": "The Fool"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 58,
+  "fields": {
+    "number": 1,
+    "name": "Маг",
+    "orgname": "The Magician"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 59,
+  "fields": {
+    "number": 2,
+    "name": "Жрица",
+    "orgname": "The High Priestess"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 60,
+  "fields": {
+    "number": 3,
+    "name": "Императрица",
+    "orgname": "The Empress"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 61,
+  "fields": {
+    "number": 4,
+    "name": "Император",
+    "orgname": "The Emperor"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 62,
+  "fields": {
+    "number": 5,
+    "name": "Первосвященник",
+    "orgname": "The Hierophant"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 63,
+  "fields": {
+    "number": 6,
+    "name": "Влюбленные",
+    "orgname": "The Lovers"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 64,
+  "fields": {
+    "number": 7,
+    "name": "Повозка",
+    "orgname": "The Chariot"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 65,
+  "fields": {
+    "number": 8,
+    "name": "Сила",
+    "orgname": "Strength"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 66,
+  "fields": {
+    "number": 9,
+    "name": "Отшельник",
+    "orgname": "The Hermit"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 67,
+  "fields": {
+    "number": 10,
+    "name": "Колесо Фортуны",
+    "orgname": "Wheel Of Fortune"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 68,
+  "fields": {
+    "number": 11,
+    "name": "Справедливость",
+    "orgname": "Justice"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 69,
+  "fields": {
+    "number": 12,
+    "name": "Повешенный",
+    "orgname": "The Hanged Man"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 70,
+  "fields": {
+    "number": 13,
+    "name": "Смерть",
+    "orgname": "Death"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 71,
+  "fields": {
+    "number": 14,
+    "name": "Умеренность",
+    "orgname": "Temperance"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 72,
+  "fields": {
+    "number": 15,
+    "name": "Диавол",
+    "orgname": "The Devil"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 73,
+  "fields": {
+    "number": 16,
+    "name": "Башня",
+    "orgname": "The Tower"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 74,
+  "fields": {
+    "number": 17,
+    "name": "Звезда",
+    "orgname": "The Star"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 75,
+  "fields": {
+    "number": 18,
+    "name": "Луна",
+    "orgname": "The Moon"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 76,
+  "fields": {
+    "number": 19,
+    "name": "Солнце",
+    "orgname": "The Sun"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 77,
+  "fields": {
+    "number": 20,
+    "name": "Суд",
+    "orgname": "Judgement"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 78,
+  "fields": {
+    "number": 21,
+    "name": "Мир",
+    "orgname": "The World"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 79,
+  "fields": {
+    "number": 22,
+    "name": "Белая карта",
+    "orgname": "Blank Card"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 136,
+  "fields": {
+    "number": 0,
+    "name": "Шут",
+    "orgname": "Le Mat"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 137,
+  "fields": {
+    "number": 1,
+    "name": "Фокусник",
+    "orgname": "Le Bateleur"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 138,
+  "fields": {
+    "number": 2,
+    "name": "Жрица",
+    "orgname": "La Papesse"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 139,
+  "fields": {
+    "number": 3,
+    "name": "Императрица",
+    "orgname": "L'Imperatrice"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 140,
+  "fields": {
+    "number": 4,
+    "name": "Император",
+    "orgname": "Le Empereur"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 141,
+  "fields": {
+    "number": 5,
+    "name": "Первосвященник",
+    "orgname": "Le Pape"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 142,
+  "fields": {
+    "number": 6,
+    "name": "Влюбленные",
+    "orgname": "L'Amoureux"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 143,
+  "fields": {
+    "number": 7,
+    "name": "Колесница",
+    "orgname": "Le Chariot"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 144,
+  "fields": {
+    "number": 8,
+    "name": "Справедливость",
+    "orgname": "La Justice"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 145,
+  "fields": {
+    "number": 9,
+    "name": "Отшельник",
+    "orgname": "L'Hermite"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 146,
+  "fields": {
+    "number": 10,
+    "name": "Колесо Фортуны",
+    "orgname": "La Roue De Fortune"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 147,
+  "fields": {
+    "number": 11,
+    "name": "Сила",
+    "orgname": "La Force"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 148,
+  "fields": {
+    "number": 12,
+    "name": "Повешенный",
+    "orgname": "Le Pendu"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 149,
+  "fields": {
+    "number": 13,
+    "name": "Смерть",
+    "orgname": "La Mort"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 150,
+  "fields": {
+    "number": 14,
+    "name": "Умеренность",
+    "orgname": "Temperance"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 151,
+  "fields": {
+    "number": 15,
+    "name": "Дьявол",
+    "orgname": "Le Diable"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 152,
+  "fields": {
+    "number": 16,
+    "name": "Разрушаемая Башня",
+    "orgname": "La Maison Dieu"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 153,
+  "fields": {
+    "number": 17,
+    "name": "Звезда",
+    "orgname": "L'Etoile"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 154,
+  "fields": {
+    "number": 18,
+    "name": "Луна",
+    "orgname": "La Lune"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 155,
+  "fields": {
+    "number": 19,
+    "name": "Солнце",
+    "orgname": "Le Soleil"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 156,
+  "fields": {
+    "number": 20,
+    "name": "Суд",
+    "orgname": "Le Jugement"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 157,
+  "fields": {
+    "number": 21,
+    "name": "Мир",
+    "orgname": "Le Monde"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 214,
+  "fields": {
+    "number": 0,
+    "name": "Шут",
+    "orgname": "Il Matto"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 215,
+  "fields": {
+    "number": 1,
+    "name": "Фокусник",
+    "orgname": "Il Bagatto"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 216,
+  "fields": {
+    "number": 2,
+    "name": "Жрица",
+    "orgname": "La Papessa"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 217,
+  "fields": {
+    "number": 3,
+    "name": "Императрица",
+    "orgname": "L'Imperatrice"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 218,
+  "fields": {
+    "number": 4,
+    "name": "Император",
+    "orgname": "L'Imperatore"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 219,
+  "fields": {
+    "number": 5,
+    "name": "Первосвященник",
+    "orgname": "Il Papa"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 220,
+  "fields": {
+    "number": 6,
+    "name": "Влюбленные",
+    "orgname": "Gli Amanti"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 221,
+  "fields": {
+    "number": 7,
+    "name": "Колесница",
+    "orgname": "Il Carro"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 222,
+  "fields": {
+    "number": 8,
+    "name": "Справедливость",
+    "orgname": "La Giustizia"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 223,
+  "fields": {
+    "number": 9,
+    "name": "Отшельник",
+    "orgname": "L'Eremita"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 224,
+  "fields": {
+    "number": 10,
+    "name": "Колесо Фортуны",
+    "orgname": "La Ruota"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 225,
+  "fields": {
+    "number": 11,
+    "name": "Сила",
+    "orgname": "La Forza"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 226,
+  "fields": {
+    "number": 12,
+    "name": "Повешенный",
+    "orgname": "L'Appeso"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 227,
+  "fields": {
+    "number": 13,
+    "name": "Тринадцать",
+    "orgname": "Il Tredici"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 228,
+  "fields": {
+    "number": 14,
+    "name": "Умеренность",
+    "orgname": "La Temperanza"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 229,
+  "fields": {
+    "number": 15,
+    "name": "Дьявол",
+    "orgname": "Il Diavolo"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 230,
+  "fields": {
+    "number": 16,
+    "name": "Башня",
+    "orgname": "La Torre"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 231,
+  "fields": {
+    "number": 17,
+    "name": "Звезда",
+    "orgname": "Le Stelle"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 232,
+  "fields": {
+    "number": 18,
+    "name": "Луна",
+    "orgname": "La Luna"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 233,
+  "fields": {
+    "number": 19,
+    "name": "Солнце",
+    "orgname": "Il Sole"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 234,
+  "fields": {
+    "number": 20,
+    "name": "Суд",
+    "orgname": "Il Giudizio"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 235,
+  "fields": {
+    "number": 21,
+    "name": "Мир",
+    "orgname": "Il Mondo"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 236,
+  "fields": {
+    "number": 0,
+    "name": "Дурак",
+    "orgname": "Il Matto"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 237,
+  "fields": {
+    "number": 1,
+    "name": "Маг",
+    "orgname": "Il Bagatto"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 238,
+  "fields": {
+    "number": 2,
+    "name": "Верховная Жрица",
+    "orgname": "La Papessa"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 239,
+  "fields": {
+    "number": 3,
+    "name": "Императрица",
+    "orgname": "L'Imperatrice"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 240,
+  "fields": {
+    "number": 4,
+    "name": "Император",
+    "orgname": "L'Imperatore"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 241,
+  "fields": {
+    "number": 5,
+    "name": "Иерофант",
+    "orgname": "Il Papa"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 242,
+  "fields": {
+    "number": 6,
+    "name": "Влюбленные",
+    "orgname": "Gli Amanti"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 243,
+  "fields": {
+    "number": 7,
+    "name": "Колесница",
+    "orgname": "Il Carro"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 244,
+  "fields": {
+    "number": 8,
+    "name": "Правосудие",
+    "orgname": "La Giustizia"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 245,
+  "fields": {
+    "number": 9,
+    "name": "Отшельник",
+    "orgname": "L'Eremita"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 246,
+  "fields": {
+    "number": 10,
+    "name": "Колесо Фортуны",
+    "orgname": "La Ruota"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 247,
+  "fields": {
+    "number": 11,
+    "name": "Сила",
+    "orgname": "La Forza"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 248,
+  "fields": {
+    "number": 12,
+    "name": "Повешеный",
+    "orgname": "L'Appeso"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 249,
+  "fields": {
+    "number": 13,
+    "name": "Смерть",
+    "orgname": "La Morte"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 250,
+  "fields": {
+    "number": 14,
+    "name": "Умеренность",
+    "orgname": "La Temperanza"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 251,
+  "fields": {
+    "number": 15,
+    "name": "Дьявол",
+    "orgname": "Il Diavolo"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 252,
+  "fields": {
+    "number": 16,
+    "name": "Башня",
+    "orgname": "La Torre"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 253,
+  "fields": {
+    "number": 17,
+    "name": "Звезда",
+    "orgname": "Le Stelle"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 254,
+  "fields": {
+    "number": 18,
+    "name": "Луна",
+    "orgname": "La Luna"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 255,
+  "fields": {
+    "number": 19,
+    "name": "Солнце",
+    "orgname": "Il Sole"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 256,
+  "fields": {
+    "number": 20,
+    "name": "Страшный Суд",
+    "orgname": "Il Giudizio"
+  }
+},
+{
+  "model": "api.cardmajor",
+  "pk": 257,
+  "fields": {
+    "number": 21,
+    "name": "Мир",
+    "orgname": "Il Mondo"
+  }
+}
+]

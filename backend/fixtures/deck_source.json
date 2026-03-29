@@ -1,0 +1,90 @@
+[
+{
+  "model": "api.decksource",
+  "pk": 1,
+  "fields": {
+    "deck": 1,
+    "source": 1
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 2,
+  "fields": {
+    "deck": 1,
+    "source": 2
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 3,
+  "fields": {
+    "deck": 1,
+    "source": 3
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 4,
+  "fields": {
+    "deck": 2,
+    "source": 1
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 5,
+  "fields": {
+    "deck": 2,
+    "source": 2
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 6,
+  "fields": {
+    "deck": 2,
+    "source": 3
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 7,
+  "fields": {
+    "deck": 3,
+    "source": 1
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 8,
+  "fields": {
+    "deck": 3,
+    "source": 3
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 9,
+  "fields": {
+    "deck": 4,
+    "source": 1
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 10,
+  "fields": {
+    "deck": 4,
+    "source": 2
+  }
+},
+{
+  "model": "api.decksource",
+  "pk": 11,
+  "fields": {
+    "deck": 4,
+    "source": 3
+  }
+}
+]

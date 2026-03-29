@@ -1,0 +1,134 @@
+[
+{
+  "model": "api.spread",
+  "pk": 1,
+  "fields": {
+    "name": "Одна карта — вся колода",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": true,
+    "num_cards": 1,
+    "description": "Традиционный способ гадания. Используются все карты."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 2,
+  "fields": {
+    "name": "Одна карта — Старшие Арканы",
+    "major_arcana": true,
+    "minor_arcana": false,
+    "upside_down": true,
+    "num_cards": 1,
+    "description": "Традиционный способ гадания. Используются только Старшие Арканы."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 3,
+  "fields": {
+    "name": "Гороскоп",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": false,
+    "num_cards": 12,
+    "description": "Астрологический расклад, каждая позиция которого интерпретируется по аналогии с домом гороскопа. Перевернутые позиции не допускаются. Используются все карты, включая Белую."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 4,
+  "fields": {
+    "name": "Три карты",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": true,
+    "num_cards": 3,
+    "description": "Традиционный расклад: прошлое — настоящее — будущее. Встречаются и другие интерпретации"
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 5,
+  "fields": {
+    "name": "Три карты по Этейлле — мужской",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": true,
+    "num_cards": 3,
+    "description": "Традиционный расклад для мужчины."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 6,
+  "fields": {
+    "name": "Три карты по Этейлле — женский",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": true,
+    "num_cards": 3,
+    "description": "Традиционный расклад для женщины."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 7,
+  "fields": {
+    "name": "Три карты — Вуаль",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": true,
+    "num_cards": 3,
+    "description": "Первая карта говорит о том, как вопрошающий видит ситуацию, вторая — что ему мешает увидеть правду, третья — что происходит на самом деле."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 8,
+  "fields": {
+    "name": "Десять карт",
+    "major_arcana": true,
+    "minor_arcana": false,
+    "upside_down": true,
+    "num_cards": 10,
+    "description": "Этот способ применяется для ознакомления с личностью человека. Участвуют Старшие Арканы и Белая Карта."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 9,
+  "fields": {
+    "name": "Крест из пяти карт",
+    "major_arcana": true,
+    "minor_arcana": false,
+    "upside_down": true,
+    "num_cards": 5,
+    "description": "Вариант старинного расклада. Используются только 22 Старших Аркана."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 10,
+  "fields": {
+    "name": "Путь",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": false,
+    "num_cards": 7,
+    "description": "Стандартный расклад Х.Банцхафа."
+  }
+},
+{
+  "model": "api.spread",
+  "pk": 11,
+  "fields": {
+    "name": "Крест из 4 карт",
+    "major_arcana": true,
+    "minor_arcana": true,
+    "upside_down": false,
+    "num_cards": 4,
+    "description": "Вариант старинного расклада, без перевернутых позиций."
+  }
+}
+]

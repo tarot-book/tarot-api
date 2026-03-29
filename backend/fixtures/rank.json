@@ -1,0 +1,100 @@
+[
+{
+  "model": "api.rank",
+  "pk": 1,
+  "fields": {
+    "name": "Туз"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 2,
+  "fields": {
+    "name": "Двойка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 3,
+  "fields": {
+    "name": "Тройка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 4,
+  "fields": {
+    "name": "Четверка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 5,
+  "fields": {
+    "name": "Пятерка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 6,
+  "fields": {
+    "name": "Шестерка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 7,
+  "fields": {
+    "name": "Семерка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 8,
+  "fields": {
+    "name": "Восьмерка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 9,
+  "fields": {
+    "name": "Девятка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 10,
+  "fields": {
+    "name": "Десятка"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 11,
+  "fields": {
+    "name": "Паж"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 12,
+  "fields": {
+    "name": "Рыцарь"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 13,
+  "fields": {
+    "name": "Королева"
+  }
+},
+{
+  "model": "api.rank",
+  "pk": 14,
+  "fields": {
+    "name": "Король"
+  }
+}
+]
