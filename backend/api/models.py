@@ -8,8 +8,14 @@ class Deck(models.Model):
     description = models.TextField(blank=True, null=True, db_comment="desc description")
     image = models.CharField(max_length=255)
 
+    sources = models.ManyToManyField(
+        "Source",
+        related_name="decks",
+        through="DeckSource",
+    )
+
     class Meta:
-        managed = False
+        managed = True
         db_table = "deck"
         db_table_comment = "Taro deck"
 
@@ -21,7 +27,7 @@ class Source(models.Model):
     name = models.CharField(unique=True, max_length=255, db_comment="a name")
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "source"
         db_table_comment = "Sources of interpretations"
 
@@ -45,7 +51,7 @@ class DeckSource(models.Model):
     )
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "deck_source"
         unique_together = (("deck", "source"),)
 
@@ -61,7 +67,7 @@ class Spread(models.Model):
     description = models.TextField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "spread"
         db_table_comment = "Card spreads"
 
@@ -75,7 +81,7 @@ class Suit(models.Model):
     description = models.TextField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "suit"
         db_table_comment = "Minor Arcana suits"
 
@@ -87,7 +93,7 @@ class Rank(models.Model):
     name = models.CharField(unique=True, max_length=100, db_comment="rank name")
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "rank"
         db_table_comment = "Minor Arcana ranks"
 
@@ -112,7 +118,7 @@ class Card(models.Model):
         return f"Card #{self.pk} ({self.arcana})"
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "card"
 
 
@@ -128,7 +134,7 @@ class CardImage(models.Model):
     path = models.CharField(max_length=255, db_comment="relative path to the card image")
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "card_image"
 
     def __str__(self) -> str:
@@ -149,7 +155,7 @@ class CardMajor(models.Model):
     orgname = models.CharField(max_length=50, blank=True, null=True, db_comment="original name")
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "card_major"
         db_table_comment = "Major Arcana cards"
 
@@ -180,7 +186,7 @@ class CardMinor(models.Model):
     )
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "card_minor"
         db_table_comment = "Minor Arcana cards"
 
@@ -204,7 +210,7 @@ class MeaningMajor(models.Model):
         return f"Major #{self.number} [{self.position}] ({self.source})"
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "meaning_major"
         unique_together = (("number", "position", "source"),)
 
@@ -223,6 +229,6 @@ class MeaningMinor(models.Model):
         return f"{self.rank} of {self.suit} [{self.position}] ({self.source})"
 
     class Meta:
-        managed = False
+        managed = True
         db_table = "meaning_minor"
         unique_together = (("suit", "rank", "position", "source"),)

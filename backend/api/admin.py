@@ -16,10 +16,17 @@ from .models import (
 )
 
 
+class DeckSourceInline(admin.TabularInline):
+    model = DeckSource
+    extra = 0
+
+
 @admin.register(Deck)
 class DeckAdmin(admin.ModelAdmin):
-    list_display = ("id", "name")
+    list_display = ("name", "id")
+    list_display_links = ("name",)
     search_fields = ("name",)
+    # filter_horizontal = ("sources",)
 
 
 @admin.register(Source)

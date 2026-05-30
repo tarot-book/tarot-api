@@ -31,3 +31,5 @@ go-taricode-workspace
 *.code-workspace
 
 static
+__pycache__/
+*.pyc

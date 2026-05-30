@@ -14,11 +14,18 @@ Django-based REST API providing access to Tarot data: decks, cards, spreads, sou
 
 ## Quick start (local)
 
+Create `.env` in the repository root using the variables shown below, then run:
+
 ```bash
 docker compose up -d
+
+cd backend
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+python manage.py migrate
+./load_fixtures.sh
 python manage.py runserver
 ```
 
@@ -28,11 +35,50 @@ Default address:
 
 ## Environment variables
 
+The local Django app and `docker-compose.yml` read database settings from `.env` in
+the repository root.
+
 ```env
-DATABASE_URL=postgres://tarot:tarot@127.0.0.1:5432/tarot
-DJANGO_SECRET_KEY=change-me
-DJANGO_DEBUG=1
-ALLOWED_HOSTS=127.0.0.1,localhost
+DB_USER=tarot
+DB_PASSWORD=tarot
+DB_NAME=tarot
+DB_HOST=127.0.0.1
+DB_PORT=5432
+```
+
+## Database initialization
+
+`docker compose up -d` starts PostgreSQL and keeps its data in the
+`postgres-data` Docker volume. It does not load application data by itself.
+
+For a fresh database, run Django migrations first, then load JSON fixtures:
+
+```bash
+cd backend
+python manage.py migrate
+./load_fixtures.sh
+```
+
+The fixture loader imports data from `backend/fixtures` in dependency order:
+sources, decks, spreads, suits, ranks, cards, images, deck-source links and
+meanings.
+
+To refresh fixture files from the current database state:
+
+```bash
+cd backend
+./dump_fixtures.sh
+```
+
+If you need to recreate the database from scratch, remove the Docker volume and
+then repeat the migration and fixture-loading steps:
+
+```bash
+docker compose down -v
+docker compose up -d
+cd backend
+python manage.py migrate
+./load_fixtures.sh
 ```
 
 ## Versioning
