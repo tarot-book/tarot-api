@@ -1,140 +1,66 @@
-name: Deploy Tarot API
+name: Django CI
 
 on:
   push:
     branches:
       - main
-    tags:
-      - 'v*'
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  unit-tests:
-    name: Run Unit Tests
+  checks:
+    name: Run Django checks
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v4
-        with:
-          go-version: 1.24
 
-      - name: Run unit tests
-        run: make test-unit
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: tarot_test
+          POSTGRES_USER: tarot
+          POSTGRES_PASSWORD: tarot
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U tarot -d tarot_test"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
-  # integration-tests:
-  #   name: Run Integration Tests
-  #   runs-on: ubuntu-latest
+    env:
+      DB_NAME: tarot_test
+      DB_USER: tarot
+      DB_PASSWORD: tarot
+      DB_HOST: 127.0.0.1
+      DB_PORT: 5432
 
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v3
-      
-  #     - name: Copy .env
-  #       run: cp .env.test.example .env.test
-
-  #     - name: Start containers
-  #       run: docker compose --env-file .env.test -f docker-compose.test.yml  up -d
-
-  #     - name: Wait for Postgres to be healthy
-  #       run: |
-  #         for i in {1..20}; do
-  #           STATUS=$(docker inspect --format='{{.State.Health.Status}}' tarot-postgres-test)
-  #           echo "⏳ DB health status: $STATUS"
-  #           if [ "$STATUS" = "healthy" ]; then
-  #             echo "✅ DB is healthy"
-  #             break
-  #           fi
-  #           sleep 2
-  #         done
-
-  #         if [ "$STATUS" != "healthy" ]; then
-  #           echo "❌ DB failed to become healthy"
-  #           docker logs tarot-postgres-test
-  #           exit 1
-  #         fi
-
-  #     - name: Run Integration Tests
-  #       run: go test -v ./tests/integration/...
-
-  #     - name: Stop test containers
-  #       if: always()
-  #       run: docker compose -f docker-compose.test.yml down
-
-
-  deploy:
-    name: Deploy Release
-    if: startsWith(github.ref, 'refs/tags/v') 
-    needs: [unit-tests]
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Go
-        uses: actions/setup-go@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          go-version: 1.24
+          python-version: "3.14"
 
-      - name: Install swag
-        run: go install github.com/swaggo/swag/cmd/swag@latest
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r backend/requirements.txt
 
-      - name: Build binary
-        run: make build-linux
+      - name: Check project
+        working-directory: backend
+        run: python manage.py check
 
-      - name: Copy binary to server
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USER }}
-          key: ${{ secrets.PROD_KEY }}
-          source: "tarot-api"
-          target: ${{ secrets.PROD_PATH }}
+      - name: Check migrations
+        working-directory: backend
+        run: python manage.py makemigrations --check --dry-run
 
-      - name: Copy Swagger docs
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USER }}
-          key: ${{ secrets.PROD_KEY }}
-          source: "docs"
-          target: "/opt/tarot-api/"
-      - name: Copy migrations directory
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USER }}
-          key: ${{ secrets.PROD_KEY }}
-          source: "migrations"
-          target: "/opt/tarot-api/"
-      
+      - name: Apply migrations
+        working-directory: backend
+        run: python manage.py migrate --noinput
 
-  migrate:
-    name: Run Migrations
-    needs: [deploy]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run migration script on server
-        uses: appleboy/ssh-action@v0.1.10
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USER }}
-          key: ${{ secrets.PROD_KEY }}
-          script: |
-            echo "▶️ [migrate] Not implemented yet"
-            # cd /opt/tarot-api && ./tarot-api migrate up
-          
-
-  restart-service:
-    name: Restart Service
-    needs: [deploy]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Restart systemd service
-        if:  ${{ vars.RESTART_SERVICE == 'true' }}
-        uses: appleboy/ssh-action@v0.1.10
-        with:
-          host: ${{ secrets.PROD_HOST }}
-          username: ${{ secrets.PROD_USER }}
-          key: ${{ secrets.PROD_KEY }}
-          script: |
-            echo "🔁 Restarting tarot-api systemd service"
-            sudo systemctl restart tarot-api
+      - name: Run tests
+        working-directory: backend
+        run: python manage.py test
